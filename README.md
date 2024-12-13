@@ -27,17 +27,25 @@ These synthetic images enhance dataset diversity and improve the training of AI 
 │   ├── 10x_magnification.py       # Code for generating 10x magnification images
 │   ├── 100x_magnification.py      # Code for generating 100x magnification images
 │   ├── utils.py                   # Utility functions (e.g., preprocessing, evaluation)
+
+---
+
 ├── data/
 │   ├── 10x/                       # Folder containing 10x magnification data samples
 │   ├── 100x/                      # Folder containing 100x magnification data samples
 │   └── README.md                  # Data description
+
+---
+
 ├── results/
 │   ├── generated_10x/             # Generated 10x images
 │   ├── generated_100x/            # Generated 100x images
 │   └── evaluation_metrics.txt     # Inception Score and FID values
+
+---
+
 ├── figures/
 │   ├── architecture_diagram.png   # W-GAN model architecture
 │   ├── results_comparison.png     # GAN comparison graphs
 │   └── training_curves.png        # Generator and Discriminator loss curves
-├── LICENSE
-└── README.md                      # This file
+
